@@ -1,0 +1,155 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+.f1 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+}
+
+.f12 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-size: 60px;
+  font-style: normal;
+}
+
+.f13 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.f2 {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-size: 70px;
+  font-style: normal;
+}
+
+.f3 {
+  font-family: "Bodoni Moda SC", serif;
+  font-weight: 410;
+  font-size: 60px;
+  font-style: normal;
+}
+
+body {
+	margin: 0;
+	background-color: #EEDACC;
+	color: #4F2000;
+}
+
+a {
+	color: #4F2000;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+form{
+	margin-top: 100px;
+	margin-left: 10%;
+}
+	
+form label{
+	font-family: "Bona Nova SC", serif;
+    font-size: 30px;
+}
+
+form button{
+	margin-top: 30px;
+	
+	font-family: "Bona Nova SC", serif;
+    font-size: 30px;
+	
+	height: 50px;
+	width: 150px;
+
+	background: #d4c4b6;
+	border-radius: 4px;	
+	
+	transition: opacity 0.4s;
+}
+
+form button:hover{
+	opacity: 0.7;
+}
+	
+.hr{
+	margin-top: 30px;
+	margin-bottom: 100px;
+}	
+	
+.name_text{
+	margin-bottom: 40px;
+	width: 22%;
+	height: 20px;
+}
+
+.comments_text{
+	margin-top: 0px;
+	width: 80%;
+	height: 100px;
+}
+
+.header_nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_list{
+	display: flex;
+	gap: 30px;
+}
+
+.header_list a{
+	font-size: 20px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 400;
+    font-style: normal;
+	opacity: 0.6;
+
+	transition: opacity 0.4s;
+}
+
+.header_list a:hover{
+	opacity: 1;
+}
+
+.btn1{
+	margin-right: 90px;
+	font-size: 20px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 450;
+    font-style: normal;
+
+	width: 100px;
+	height: 40px;
+	background: #d4c4b6;
+	border-radius: 3px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: opacity 0.4s;
+}
+
+.message{
+	margin: 100px;
+}
+
+.divv{
+	margin-left: 10%;
+	
+	font-family: "Baskervville SC", serif;
+	font-size: 27px;
+}
